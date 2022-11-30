@@ -33,11 +33,11 @@ const Weather = ({weatherData}) => {
   }, [units])
 
   const imageSelection = {
-    Clouds: 'src/assets/weather-icons/png/002-cloudy.png',
-    Rain: 'src/assets/weather-icons/png/003-rain.png',
-    Snow: 'src/assets/weather-icons/png/006-snowing.png',
-    Clear: 'src/assets/weather-icons/png/001-sun.png',
-    Thunderstorm: 'src/assets/weather-icons/png/005-storm.png'
+    Clouds: 'png/002-cloudy.png',
+    Rain: 'png/003-rain.png',
+    Snow: 'png/006-snowing.png',
+    Clear: 'png/001-sun.png',
+    Thunderstorm: 'png/005-storm.png'
   }
 
   icon = imageSelection[main]
